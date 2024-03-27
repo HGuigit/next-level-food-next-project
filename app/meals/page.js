@@ -1,26 +1,27 @@
 import Link from "next/link";
+import styles from './page.module.css'
+import MealsGrid from "@/components/meals/meals-grid";
 
 export default function MealsPage() {
     return (
       <>
-        <h1>Meals!</h1>
-        <Link href={"/meals/share"} className="text-underline">
-          Share meals
-        </Link>
-        <div>
-          <ul>
-            <li>
-              <Link href={"/meals/meal-1"} className="text-underline">
-                Meal-1
-              </Link>
-            </li>
-            <li>
-              <Link href={"/meals/meal-2"} className="text-underline">
-                Meal-2
-              </Link>
-            </li>
-          </ul>
-        </div>
+            <header className={styles.header}>
+                <h1>
+                    Refeições deliciosas, criadas
+                    <span className={styles.highlight}> por você.</span>
+                </h1>
+                <p>
+                    Escolha sua receita favorita e cozinhe você mesmo. É rápido, fácil e gostoso.
+                </p>
+                <p className={styles.cta}>
+                    <Link href={"/meals/share"}>
+                        Compartilhe sua receita favorita.
+                    </Link>
+                </p>
+            </header>
+            <main className={styles.main}>
+                <MealsGrid meals={[]} />
+            </main>
       </>
     );
 }
