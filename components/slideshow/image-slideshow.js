@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Image from "next/image";
+import {motion } from 'framer-motion'
 
 import burgerImg from "@/assets/burger.jpg";
 import curryImg from "@/assets/curry.jpg";
@@ -36,7 +37,9 @@ export default function ImageSlideshow() {
   }, []);
 
   return (
-    <div className={classes.slideshow}>
+    <motion.div
+      whileHover={{ scale: 1.1, rotate: '5deg' }}
+      className={classes.slideshow}>
       {images.map((image, index) => (
         <Image
           key={index}
@@ -45,6 +48,6 @@ export default function ImageSlideshow() {
           alt={image.alt}
         />
       ))}
-    </div>
+    </motion.div>
   );
 }
