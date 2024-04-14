@@ -5,7 +5,7 @@ const refeicoesFalsas = [
   {
     title: "Suculento Cheese Burger",
     slug: "suculento-cheese-burger",
-    image: "/images/burger.jpg",
+    image: "burger.jpg",
     summary:
       "Um hambúrguer delicioso com um hambúrguer suculento e queijo derretido, servido em um pão macio.",
     instructions: `
@@ -27,7 +27,7 @@ const refeicoesFalsas = [
   {
     title: "Curry Picante",
     slug: "curry-picante",
-    image: "/images/curry.jpg",
+    image: "curry.jpg",
     summary:
       "Um curry rico e picante, infundido com especiarias exóticas e leite de coco cremoso.",
     instructions: `
@@ -52,7 +52,7 @@ const refeicoesFalsas = [
   {
     title: "Dumplings Caseiros",
     slug: "dumplings-caseiros",
-    image: "/images/dumplings.jpg",
+    image: "dumplings.jpg",
     summary:
       "Dumplings macios recheados com carne e legumes salgados, cozidos no vapor até a perfeição.",
     instructions: `
@@ -74,7 +74,7 @@ const refeicoesFalsas = [
   {
     title: "Macarrão com Queijo Clássico",
     slug: "macarrao-com-queijo-classico",
-    image: "/images/macncheese.jpg",
+    image: "macncheese.jpg",
     summary:
       "Macarrão cremoso e queijo, um clássico reconfortante que sempre agrada a multidão.",
     instructions: `
@@ -99,7 +99,7 @@ const refeicoesFalsas = [
   {
     title: "Pizza Autêntica",
     slug: "pizza-autentica",
-    image: "/images/pizza.jpg",
+    image: "pizza.jpg",
     summary:
       "Pizza artesanal com um molho de tomate azedo, coberturas frescas e queijo derretido.",
     instructions: `
@@ -121,7 +121,7 @@ const refeicoesFalsas = [
   {
     title: "Wiener Schnitzel",
     slug: "wiener-schnitzel",
-    image: "/images/schnitzel.jpg",
+    image: "schnitzel.jpg",
     summary:
       "Bife de vitela crocante e dourado, uma clássica iguaria austríaca.",
     instructions: `
@@ -143,7 +143,7 @@ const refeicoesFalsas = [
   {
     title: "Salada de Tomate Fresca",
     slug: "salada-de-tomate-fresca",
-    image: "/images/tomato-salad.jpg",
+    image: "tomato-salad.jpg",
     summary:
       "Uma salada leve e refrescante com tomates maduros, manjericão fresco e um vinagrete tangy.",
     instructions: `
